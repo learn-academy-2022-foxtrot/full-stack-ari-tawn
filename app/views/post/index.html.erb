@@ -1,0 +1,13 @@
+<h1>Your Wonderful Blog</h1>
+
+<ul>
+<% @posts.each do |post| %>
+<li>
+<h3><%= link_to post.title, post_path(post) %></h3>
+<h4>Content:</h4>
+<%= post.content %>
+</li>
+<%end%>
+</ul>
+
+
