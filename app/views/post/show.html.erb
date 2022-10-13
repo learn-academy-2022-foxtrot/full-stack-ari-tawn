@@ -5,4 +5,5 @@
 <br/>
 
 <%= link_to 'Delete this Post', delete_post_path(@post), data:{turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
+<%= link_to 'Edit and Update Posts', edit_post_path %>
 <%= link_to 'Return to Home', posts_path %>
