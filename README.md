@@ -13,7 +13,6 @@ Has a controller for Blog ✅
 Has a controller action for index ✅
 Has a route for index ✅
 
-
 Can see all the blog post titles on the landing page of the application ✅
 Story 2: In order to interact with the blog post application, as a user of the application, I need to see the details of one blog post. ✅
 
@@ -86,17 +85,17 @@ Has a route for update ✅
 Can fill out a form to edit an existing blog post and click on a submit button that will trigger an update action ✅
 Can be rerouted to the landing page when a valid blog post is ✅
 
-
 Story 8: In order to create a secure blog post application, as a developer of the application, I need to ensure only valid data is entered into the database.
 
-Branch: blog-validations
+Branch: blog-validations ✅
 
 Acceptance Criteria
 
-Ensure all blog posts have titles and content for each post (non-nil, non-blank values)
-Ensure all blog post titles are unique
-Ensure that blog post titles are at least 4 characters
-Ensure that blog post content is at least 10 characters
+Ensure all blog posts have titles and content for each post (non-nil, non-blank values) ✅
+Ensure all blog post titles are unique ✅
+Ensure that blog post titles are at least 4 characters ✅
+Ensure that blog post content is at least 10 characters ✅
+
 Story 9: In order to enjoy the blog post application, as a user of the application, I need to see pleasant styling.
 
 Branch: blog-styles
